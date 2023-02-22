@@ -1,0 +1,14 @@
+.rotate {
+    opacity: 0.2;
+    animation: rotate-animation  3s normal infinite;
+}
+
+@keyframes rotate-animation  {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}

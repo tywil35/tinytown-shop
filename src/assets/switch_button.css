@@ -1,0 +1,20 @@
+.toggle-checkbox {
+  @apply absolute block w-6 h-6 rounded-full bg-white shadow appearance-none cursor-pointer;
+}
+
+.toggle-label {
+  @apply block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer;
+}
+
+.toggle-container {
+  @apply relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in;
+}
+
+.toggle-checkbox:checked {
+  right: 0;
+  border-color: #68D391;
+}
+
+.toggle-checkbox:checked+.toggle-label {
+  background-color: #68D391;
+}

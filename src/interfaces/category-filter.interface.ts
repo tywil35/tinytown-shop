@@ -1,0 +1,1 @@
+export type CategoryFilter = { category_name?: string };

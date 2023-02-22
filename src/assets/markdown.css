@@ -1,0 +1,31 @@
+.markdown-body {
+    @apply p-4;
+}
+
+.markdown-body blockquote {
+    @apply block pl-1 border-l-gray-500 border-opacity-50 border-l-2;
+}
+
+.markdown-body code {
+    @apply block bg-gray-800 text-green-700 px-2 py-2 rounded text-sm;
+}
+
+.markdown-body ul {
+    @apply pl-5 list-disc;
+}
+
+.markdown-body ol {
+    @apply pl-5 list-decimal;
+}
+
+.markdown-body h1 {
+    @apply text-4xl;
+}
+
+.markdown-body h2 {
+    @apply text-2xl;
+}
+
+.markdown-body a {
+    @apply underline visited:text-purple-700 text-blue-500;
+}
